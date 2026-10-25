@@ -1,0 +1,12 @@
+[
+  {"id":1, "name":"Integrales Dobles y Cambio de Orden"},
+  {"id":2, "name":"Integrales Dobles en Coordenadas Polares"},
+  {"id":3, "name":"Integrales Triples"},
+  {"id":4, "name":"Integrales Triples en Cilíndricas"},
+  {"id":5, "name":"Integrales Triples en Esféricas"},
+  {"id":6, "name":"Integrales de Línea Escalares y Vectoriales"},
+  {"id":7, "name":"Campos Conservativos, Potencial e Independencia"},
+  {"id":8, "name":"Teorema de Green y Cálculo de Área"},
+  {"id":9, "name":"Teorema de Stokes"},
+  {"id":10, "name":"Teorema de la Divergencia (Gauss) y Repaso Mixto"}
+]

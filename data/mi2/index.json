@@ -1,0 +1,12 @@
+[
+  {"id":1, "name":"Rectas, Planos y Proyecciones Ortogonales"},
+  {"id":2, "name":"Cuatro Subespacios Fundamentales"},
+  {"id":3, "name":"Complementos Ortogonales y Bases"},
+  {"id":4, "name":"Mínimos Cuadrados y Ajuste"},
+  {"id":5, "name":"Ortogonalidad, Gram-Schmidt, Q y Proyecciones"},
+  {"id":6, "name":"Determinantes"},
+  {"id":7, "name":"Autovalores y Autovectores"},
+  {"id":8, "name":"Diagonalización A = S D S^{-1}"},
+  {"id":9, "name":"Matrices Simétricas y A = Q D Q^T"},
+  {"id":10, "name":"Repaso Mixto Estilo Reposición"}
+]

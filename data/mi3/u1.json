@@ -1,0 +1,16 @@
+{
+  "unit": 1,
+  "name": "Integrales Dobles y Cambio de Orden",
+  "questions": [
+    {"id":1,"type":"input","question":"∬_{0<=x<=1,0<=y<=1} 1 dA. Área. Respuesta a 3 decimales.","correct":1.000,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"Integral doble de 1 = área","steps":["∫_0^1 ∫_0^1 dy dx = 1"],"final":"1.000"}},
+    {"id":2,"type":"input","question":"Área del círculo x^2+y^2 <= 1. Respuesta a 3 decimales.","correct":3.142,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"π r^2, r=1","steps":["π"],"final":"3.142"}},
+    {"id":3,"type":"input","question":"∬_{x^2+y^2<=4} dA en polares: ∫_0^{2π}dθ ∫_0^2 r dr. Respuesta a 3 decimales.","correct":12.566,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"dA = r dr dθ","steps":["2π * (r^2/2)|0^2 = 2π * 2 = 4π"],"final":"12.566"}},
+    {"id":4,"type":"input","question":"V bajo z=x^2+y^2 sobre disco x^2+y^2<=1: ∫_0^{2π}dθ ∫_0^1 r^2 * r dr. Respuesta a 3 decimales.","correct":1.571,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"x^2+y^2=r^2, dA=r dr dθ","steps":["2π * ∫_0^1 r^3 dr = 2π * 1/4 = π/2"],"final":"1.571"}},
+    {"id":5,"type":"input","question":"∬ (x^2+y^2) dA sobre x^2+y^2<=1. Respuesta a 3 decimales.","correct":1.571,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"r^2 * r = r^3","steps":["2π ∫_0^1 r^3 dr = π/2"],"final":"1.571"}},
+    {"id":6,"type":"input","question":"Área encerrada por cardioide? No. Área círculo r<=2: 4π. Respuesta a 3 decimales.","correct":12.566,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"∫_0^{2π}dθ ∫_0^2 r dr","steps":["2π * 2 = 4π"],"final":"12.566"}},
+    {"id":7,"type":"input","question":"Cambio de orden: integrar primero en y si región tipo I pasa a tipo II. Área útil. D: 0<=x<=1,0<=y<=x -> en tipo II 0<=y<=1,y<=x<=1. Sí.","correct":1.000,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"Descripción de región","steps":["Equivalente"],"final":"1.000"}},
+    {"id":8,"type":"input","question":"∬_{D triángulo (0,0),(1,0),(0,1)} (x+y) dA. Respuesta a 3 decimales.","correct":0.333,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"0<=x<=1, 0<=y<=1-x","steps":["∫_0^1 ∫_0^{1-x}(x+y)dy dx = 1/3"],"final":"0.333"}},
+    {"id":9,"type":"input","question":"Si f(x,y)=1, integral doble da. Respuesta a 3 decimales.","correct":1.000,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"Área","steps":["Área de D"],"final":"1.000"}},
+    {"id":10,"type":"input","question":"Elemento dA en polares. Factor. Respuesta a 3 decimales (usar valor numérico r? Mejor 1.000 indicando factor pero pide valor; aquí factor implícito). Mejor: ∫_0^{2π}dθ ∫_0^1 1*r dr = π. Respuesta a 3 decimales.","correct":3.142,"answerType":"decimal","explanation":{"title":"Procedimiento","theory":"dA = r dr dθ","steps":["∫_0^{2π}dθ ∫_0^1 r dr = 2π * 0.5 = π"],"final":"3.142"}}
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestMate - Intermedia 2 y 3 USAC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <button id="btn-back" class="back" onclick="app.back()">← Volver</button>
+        <h1 id="title">TestMate | Matemática Intermedia 2 y 3</h1>
+    </header>
+    <main>
+        <section id="home" class="view active">
+            <h2>Selecciona el curso</h2>
+            <p class="sub">Examen de simulación con respuesta directa a 3 decimales</p>
+            <div class="grid">
+                <button class="card mi2" onclick="app.go('mi2')">
+                    <div class="card-title">Matemática Intermedia 2</div>
+                    <div class="card-sub">100 ejercicios • Respuesta directa • Procedimiento detallado</div>
+                </button>
+                <button class="card mi3" onclick="app.go('mi3')">
+                    <div class="card-title">Matemática Intermedia 3</div>
+                    <div class="card-sub">100 ejercicios • Respuesta directa • Procedimiento detallado</div>
+                </button>
+            </div>
+        </section>
+        <section id="units" class="view">
+            <h2 id="units-title">Unidades</h2>
+            <div id="units-list" class="units"></div>
+        </section>
+        <section id="quiz" class="view">
+            <div class="quiz-head">
+                <div id="qcount">Pregunta 1 / 10</div>
+                <div class="progress"><div id="pbar"></div></div>
+            </div>
+            <div id="qtext" class="qtext"></div>
+            <div id="input-wrap" class="input-wrap">
+                <input id="ans" type="text" placeholder="Escriba su respuesta (ej. 2.646)" autocomplete="off">
+                <button class="btn" onclick="app.check()">Verificar</button>
+            </div>
+            <div id="feedback" class="feedback" style="display:none"></div>
+            <button id="next" class="btn next" style="display:none" onclick="app.next()">Siguiente</button>
+        </section>
+        <section id="results" class="view">
+            <h2>Resultados</h2>
+            <div class="score" id="score">0 / 0</div>
+            <div id="pct" class="pct"></div>
+            <button class="btn" onclick="app.restart()">Volver a unidades</button>
+        </section>
+    </main>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
